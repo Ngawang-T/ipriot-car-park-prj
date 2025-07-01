@@ -13,3 +13,7 @@ Here are other good examples of onboarding documents that relate to git and vers
 
 # Note
 When using this repo as a template, you should update this readme to provide a general overview suitable for **YOUR** project.
+
+#General overview for Ipriot-car-park-prj
+
+Using the object oriented programming concepts in python to design and implement a car park system in the PyCharm IDE. Should consist of a car park, sensors and displays to track the cars entering and exiting and the availability pf parking bays.
