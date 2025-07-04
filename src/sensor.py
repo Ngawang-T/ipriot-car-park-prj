@@ -1,14 +1,19 @@
 
 
 
-class CarPark:
+class Sensor:
     pass
-    def __init__(self, location, capacity, plates = None, displays = None):
-        #parameters
-        self.location = location
-        self.capacity = capacity
-        self.plates = plates
-        self.displays = displays or []
+    def __init__(self, id, is_active, car_park):
+        self.id = id
+        self.is_active = is_active
+        self.car_park = car_park
+
 
     def __str__(self):
-        ... # Return string containing the car park's location and capacity.
+        return "sensor's" + str(self.id) + str(self.is_active)
+
+class EntrySensor(Sensor):
+    pass
+
+class ExitSensor(Sensor):
+    pass
